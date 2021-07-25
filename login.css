@@ -1,0 +1,82 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial';
+            background-image: url('kkr.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: white;
+            /* Global values */
+        }
+        
+        .login {
+            width: 300px;
+            overflow: hidden;
+            margin: auto;
+            padding: 80px;
+            border-radius: 50px;
+            background-color: rgb(240, 59, 9);
+            box-shadow: 28px 12px 0px rgb(5, 220, 30), inset 16px 21px 0px greenyellow;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #131311;
+            padding: 2px;
+            font-family: cursive;
+            font-weight: bold;
+            letter-spacing: 3px;
+            box-sizing: border-box;
+        }
+        
+        label {
+            color: #e8dddd;
+            font-size: 17px;
+        }
+        
+        #Uname {
+            padding: 10px;
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 15px;
+            padding-left: 8px;
+            box-shadow: inset 5px 5px 5px 3px rgb(12, 29, 218), inset -5px -5px 3px rgb(107, 188, 8);
+        }
+        
+        #Pass {
+            padding: 10px;
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 15px;
+            padding-left: 8px;
+            box-shadow: inset 5px 5px 5px 3px rgb(15, 232, 22), inset -5px -5px 3px rgb(220, 12, 95);
+        }
+        
+        #log {
+            width: 300px;
+            height: 40px;
+            border: none;
+            border-radius: 17px;
+            color: rgb(26, 18, 17);
+            text-align: center;
+            padding-left: 7px;
+            box-shadow: inset 5px 5px 5px 3px rgb(160, 27, 27), inset -5px -5px 3px rgb(9, 204, 218);
+        }
+        
+        span {
+            color: white;
+            font-size: 17px;
+        }
+        
+        a {
+            float: right;
+            text-decoration: none;
+            color: white;
+        }
+        
+        input {
+            font-size: 23px;
+        }

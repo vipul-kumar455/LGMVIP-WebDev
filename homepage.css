@@ -1,0 +1,186 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e81f1f;
+    color: white;
+    margin: 0;
+}
+
+hr {
+    border-top: 1px solid white;
+}
+
+.container {
+    padding: 0 5%;
+}
+
+.title {
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.main span {
+    font-size: 20px;
+    padding: 34px;
+}
+
+.main p {
+    font-size: 16px;
+    line-height: 2;
+    padding: 34px;
+}
+
+.info {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.info span {
+    color: #05ee18;
+    font-size: 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 2;
+    margin-top: 100px;
+}
+
+.footer a {
+    color: white;
+    display: block;
+}
+
+.footer span {
+    font-size: 20px;
+}
+
+
+/* navigation bar */
+
+ul {
+    list-style-type: none;
+    margin: 30px 0;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    background-color: rgb(112, 112, 167);
+    font-size: medium;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+li a:hover,
+.dropdown:hover {
+    background-color: #2914ed
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #474b4f;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #2914ed;
+}
+
+
+/* image slider */
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+    border-radius: 23px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(109, 102, 93);
+    height: max-content;
+    margin: 2px 2px -25px 2px;
+    padding: 23px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #0750ef;
+    color: rgb(227, 34, 34);
+}
+
+.fa-twitter {
+    background: #f28b0d;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
